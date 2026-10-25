@@ -1,5 +1,22 @@
-print("Welcome to Plant Directory Utility!")
+plants = {
+    "neem": {
+        "scientific_name": "Azadirachta indica",
+        "family": "Meliaceae"
+    },
+    "mango": {
+        "scientific_name": "Mangifera indica",
+        "family": "Anacardiaceae"
+    },
+    "sunflower": {
+        "scientific_name": "Helianthus annuus",
+        "family": "Asteraceae"
+    }
+}
 
-plant_name = input("Enter a plant name: ")
+name = input("Enter a plant name: ").lower().strip()
 
-print("You searched for:", plant_name)
+if name in plants:
+    print("Scientific name:", plants[name]["scientific_name"])
+    print("Family:", plants[name]["family"])
+else:
+    print("Plant not found!")
