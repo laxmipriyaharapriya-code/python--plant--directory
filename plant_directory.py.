@@ -1,0 +1,5 @@
+print("Welcome to Plant Directory Utility!")
+
+plant_name = input("Enter a plant name: ")
+
+print("You searched for:", plant_name)
