@@ -1,0 +1,14 @@
+{
+    "neem": {
+        "scientific_name": "Azadirachta indica",
+        "family": "Meliaceae"
+    },
+    "mango": {
+        "scientific_name": "Mangifera indica",
+        "family": "Anacardiaceae"
+    },
+    "sunflower": {
+        "scientific_name": "Helianthus annuus",
+        "family": "Asteraceae"
+    }
+}
